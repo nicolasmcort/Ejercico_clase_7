@@ -101,7 +101,7 @@ print(f"Perimeter (square): {square.compute_perimeter()}")
 # Testing interference points
 test_point1 = Point(2, 1)
 print(f"\nFirst point inside rectangle? {rectangle.compute_interference_point(test_point1)}")  
-test_point2 = Point(5, 3)
+test_point2 = Point(4, 3)
 print(f"Second point inside rectangle? {rectangle.compute_interference_point(test_point2)}")  
 
 # Testing interference lines
@@ -130,3 +130,8 @@ Second point inside rectangle? False
 
 First line intersects rectangle? False
 Second line intersects rectangle? True
+
+### Verificación en GeoGebra
+![image](https://github.com/user-attachments/assets/f27128fc-eba2-43a9-8ceb-ee17e9e4902e)
+
+
