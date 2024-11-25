@@ -70,7 +70,7 @@ class Square(Rectangle):
 
 ```
 
-###Ejemplo de uso
+### Ejemplo de uso
 ```python
 # Method 1: Bottom-left corner + width and height
 bottom_left = Point(0, 0)
@@ -110,7 +110,7 @@ line2 = [Point(1, 1), Point(5, 3)]
 print(f"Second line intersects rectangle? {rectangle.compute_interference_line(line_start=line2[0], line_end=line2[1])}") 
 ```
 
-###Output
+### Output
 Area (first rectangle): 8
 Perimeter (first rectangle): 12
 
