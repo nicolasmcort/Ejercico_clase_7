@@ -131,7 +131,10 @@ Second point inside rectangle? False
 First line intersects rectangle? False
 Second line intersects rectangle? True
 
+
 ### Verificación en GeoGebra
+https://www.geogebra.org/classic/wenwuhpd
+
 ![image](https://github.com/user-attachments/assets/f27128fc-eba2-43a9-8ceb-ee17e9e4902e)
 
 
