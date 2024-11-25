@@ -1,6 +1,6 @@
 # Ejercico_clase_7
 
-Este ejercicio en Python define clases para representar puntos, rectángulos y cuadrados, permitiendo la creación de estas figuras de diferentes formas (por esquina, centro o dos esquinas opuestas). Incluye métodos para calcular área, perímetro y verificar si un punto o línea interfieren con la figura.
+Este ejercicio define clases para representar puntos, rectángulos y cuadrados, permitiendo la creación de figuras mediante diferentes formas (por esquina, centro o dos esquinas opuestas). Incluye métodos para calcular área, perímetro y verificar si un punto o línea interfieren con la figura.
 
 ``` python
 class Point:
@@ -54,7 +54,7 @@ class Rectangle:
 
             # Calculete the projected point and check if it is within the rectangle
             closet_point = Point(line_start.x + t * dx, line_start.y + t * dy)
-            if rectangle.compute_interference_point(closet_point):
+            if self.compute_interference_point(closet_point):
                 return True
             
         return False
@@ -69,6 +69,7 @@ class Square(Rectangle):
             super().__init__(3, args[0], args[1])
 
 ```
+
 
 ### Ejemplo de uso
 ```python
@@ -109,6 +110,7 @@ print(f"\nFirst line intersects rectangle? {rectangle.compute_interference_line(
 line2 = [Point(1, 1), Point(5, 3)]
 print(f"Second line intersects rectangle? {rectangle.compute_interference_line(line_start=line2[0], line_end=line2[1])}") 
 ```
+
 
 ### Output
 Area (first rectangle): 8
