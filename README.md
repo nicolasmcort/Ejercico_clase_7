@@ -1,4 +1,4 @@
-# Ejercico_clase_7
+# Ejercicio_clase_7
 
 Este ejercicio define clases para representar puntos, rectángulos y cuadrados, permitiendo la creación de figuras mediante diferentes formas (por esquina, centro o dos esquinas opuestas). Incluye métodos para calcular área, perímetro y verificar si un punto o línea interfieren con la figura.
 
